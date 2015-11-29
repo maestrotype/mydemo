@@ -1,0 +1,111 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+		.left_top {
+
+		width: 37.5%;
+}
+	.logo {
+
+		padding: 8px 4%;
+}
+	.wrap_logo strong {
+
+		margin-left: 0%;
+}	
+	.right_top {
+		width: 61%;
+	}	
+	.nav ul li {
+		margin-right: 1%;
+}		
+	.nav ul li a {
+  		font-size: 82%;
+}
+.main .connect {
+    width: 345px;
+}   
+.face {
+    margin-right: 0;
+}
+.comment {
+    background: transparent url("../images/comment.png") no-repeat scroll 0% 91% / 90% auto;
+    width: 243px;
+    height: 100px;
+}
+.comment p {
+    font-size: 14px;
+    line-height: 14px;
+}
+.inner_text {
+    padding: 7px 51px;
+}
+.comment p span {
+    font-size: 32px;
+}
+.review .owl-carousel .owl-item img {
+    width: 205px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.left_top {
+		width: 39%;
+}
+	.right_top {
+    	width: 59%;
+}    
+	.nav ul li a {
+  		font-size: 77%;
+}
+.main .connect {
+    width: 246px;
+    padding-right: 0px;
+    padding-left: 48px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
